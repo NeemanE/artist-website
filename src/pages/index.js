@@ -7,7 +7,7 @@ export default function Home() {
       {/* Header */}
       <header className="bg-gradient-animated text-gold py-5">
         <div className="container mx-auto flex justify-between items-center px-5">
-          <h1 className="text-4xl font-bold">Kanaan Media</h1>
+          <h1 className="text-4xl font-bold">Kanaan Music</h1>
           <nav className="flex space-x-4">
             <a href="#" className="hover:underline">
               Home
@@ -41,7 +41,7 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2, delay: 0.5 }}
         >
-          Welcome to Kanaan Media, where talent meets opportunity.
+          Welcome to Kanaan Music, where talent meets opportunity.
         </motion.p>
         <motion.button
           className="mt-8 bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-lg flex items-center space-x-2 hover:scale-105 transition-transform"
@@ -61,7 +61,7 @@ export default function Home() {
       >
         <h2 className="text-4xl font-bold mb-4">About Kanaan Media</h2>
         <p className="max-w-3xl mx-auto text-lg">
-          Kanaan Media is a record label and production powerhouse dedicated to
+          Kanaan Music is a record label and production powerhouse dedicated to
           amplifying diverse voices and crafting unforgettable sounds. From
           hip-hop to R&B and beyond, we’re here to shape the future of music.
         </p>
@@ -96,7 +96,7 @@ export default function Home() {
       >
         <h2 className="text-4xl font-bold mb-4">Contact Us</h2>
         <p className="max-w-2xl mx-auto text-lg">
-          Interested in working with Kanaan Media? Reach out to us and let's
+          Interested in working with Kanaan Music? Reach out to us and let's
           create something amazing together.
         </p>
         <motion.button
@@ -120,7 +120,7 @@ export default function Home() {
           Houston, Tx 77070
         </p>
         <p>
-          <strong>Email:</strong> info@kanaanmedia.com
+          <strong>Email:</strong> info@kanaanmusic.com
         </p>
       </footer>
     </div>
