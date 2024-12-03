@@ -5,22 +5,24 @@ export default function Home() {
   return (
     <div className="min-h-screen text-white">
       {/* Header */}
-      <header className="flex justify-between items-center p-5 bg-gradient-to-r from-black via-gray-800 to-purple-800 text-gold">
-        <h1 className="text-4xl font-bold">Kanaan Media</h1>
-        <nav className="flex space-x-4">
-          <a href="#" className="hover:underline">
-            Home
-          </a>
-          <a href="#about" className="hover:underline">
-            About
-          </a>
-          <a href="#artists" className="hover:underline">
-            Artists
-          </a>
-          <a href="#contact" className="hover:underline">
-            Contact
-          </a>
-        </nav>
+      <header className="bg-gradient-animated text-gold py-5">
+        <div className="container mx-auto flex justify-between items-center px-5">
+          <h1 className="text-4xl font-bold">Kanaan Media</h1>
+          <nav className="flex space-x-4">
+            <a href="#" className="hover:underline">
+              Home
+            </a>
+            <a href="#about" className="hover:underline">
+              About
+            </a>
+            <a href="#artists" className="hover:underline">
+              Artists
+            </a>
+            <a href="#contact" className="hover:underline">
+              Contact
+            </a>
+          </nav>
+        </div>
       </header>
 
       {/* Hero Section */}
@@ -73,15 +75,15 @@ export default function Home() {
         <h2 className="text-4xl font-bold text-white mb-8">Our Artists</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="p-4 bg-gray-800 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-semibold">Artist One</h3>
+            <h3 className="text-2xl font-semibold">Coming Soon</h3>
             <p className="text-gray-400 mt-2">R&B | Soul</p>
           </div>
           <div className="p-4 bg-gray-800 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-semibold">Artist Two</h3>
+            <h3 className="text-2xl font-semibold">Coming Soon</h3>
             <p className="text-gray-400 mt-2">Hip-Hop | Rap</p>
           </div>
           <div className="p-4 bg-gray-800 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-semibold">Artist Three</h3>
+            <h3 className="text-2xl font-semibold">Coming Soon</h3>
             <p className="text-gray-400 mt-2">Pop | Alternative</p>
           </div>
         </div>
@@ -104,6 +106,23 @@ export default function Home() {
           Get in Touch
         </motion.button>
       </section>
+
+      {/* Footer Section */}
+      <footer className="bg-gray-900 text-gray-400 py-8 px-4 text-center">
+        <div className="mb-4">
+          <h3 className="text-lg font-semibold text-white">Contact Information</h3>
+        </div>
+        <p className="mb-2">
+          <strong>Phone:</strong> 346-401-1542
+        </p>
+        <p className="mb-2">
+          <strong>Address:</strong> 21175 Tomball Parkway # 190
+          Houston, Tx 77070
+        </p>
+        <p>
+          <strong>Email:</strong> info@kanaanmedia.com
+        </p>
+      </footer>
     </div>
   );
 }
